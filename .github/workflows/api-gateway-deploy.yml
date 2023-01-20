@@ -3,6 +3,14 @@ on:
   # 手動実行用トリガー
   workflow_dispatch:
 
+  # Add a trigger
+  # 自動実行用トリガー
+  push:
+    branches: 
+      [ master ]
+    paths:
+    - 'spring-petclinic-api-gateway/**'
+
 env:
   AZURE_SUBSCRIPTION: ac9220fb-23a5-4d20-ac51-c03559d705c3 # customize this
   SPRING_APPS_SERVICE: petclinic-spring-apps-8298172 # customize this
