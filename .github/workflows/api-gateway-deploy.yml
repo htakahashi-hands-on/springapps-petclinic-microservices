@@ -5,7 +5,7 @@ on:
 
 env:
   AZURE_SUBSCRIPTION: ac9220fb-23a5-4d20-ac51-c03559d705c3 # customize this
-  SPRING_APPS_SERVICE: petclinic-spring-apps # customize this
+  SPRING_APPS_SERVICE: petclinic-spring-apps-8298172 # customize this
   RESOURCE_GROUP: SPRING-APPS-RG # customize this
   # ==== APPS ====:
   API_GATEWAY: api-gateway
